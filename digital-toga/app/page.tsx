@@ -12,7 +12,7 @@ export default function HomePage() {
         style={{ backgroundImage: `url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/n41a7cjj_expires_30_days.png')` }}
       >
         <h1 className="text-[#27491F] text-4xl md:text-6xl font-bold max-w-4xl mb-6 leading-tight">
-          Oase Kesehatan di Tengah Purwodadi
+          Toga Kesehatan di Tengah Purwodadi
         </h1>
         <p className="text-black text-xl md:text-2xl max-w-3xl mb-10">
           Tumbuh dan dirawat dengan sepenuh hati untuk kesehatan keluarga Indonesia.
@@ -63,7 +63,7 @@ export default function HomePage() {
       <section id="lokasi" className="py-24 px-6 flex flex-col items-center">
         <h2 className="text-4xl font-bold mb-12 text-black">Letak Taman TOGA</h2>
         <div 
-          className="w-full max-w-5xl h-[450px] bg-cover bg-center rounded-[40px] p-8 flex items-start shadow-xl relative overflow-hidden"
+          className="w-full max-w-5xl h-[360px] bg-cover bg-center rounded-[40px] p-8 flex items-start shadow-xl relative overflow-hidden"
           style={{ backgroundImage: `url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/9vp0s1m2_expires_30_days.png')` }}
         >
           <div className="bg-white p-6 rounded-2xl shadow-xl max-w-sm relative z-10">

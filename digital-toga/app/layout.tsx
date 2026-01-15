@@ -6,7 +6,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="antialiased">
         {/* Navbar Global */}
-        <nav className="flex justify-between items-center bg-[#386642] py-5 px-6 md:px-[100px] sticky top-0 z-50">
+  <nav className="flex justify-between items-center bg-[#386642] py-5 px-6 md:px-25 sticky top-0 z-50">
           <Link href="/" className="flex items-center gap-2.5">
             <img src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/uhumhxt7_expires_30_days.png" className="w-10 h-10" alt="Logo" />
             <span className="text-white text-2xl font-bold">Purwodadi TogaPedia</span>

@@ -8,16 +8,24 @@ export default function HomePage() {
     <main className="flex flex-col">
       {/* Hero Section */}
       <section 
-        className="flex flex-col items-center justify-center min-h-[600px] bg-cover bg-center text-center px-6"
+        className="relative overflow-hidden flex flex-col items-center justify-center min-h-[600px] bg-cover bg-center text-center px-6"
         style={{ backgroundImage: `url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/n41a7cjj_expires_30_days.png')` }}
       >
-        <h1 className="text-[#27491F] text-4xl md:text-6xl font-bold max-w-4xl mb-6 leading-tight">
-          Toga Kesehatan di Tengah Purwodadi
-        </h1>
-        <p className="text-black text-xl md:text-2xl max-w-3xl mb-10">
-          Tumbuh dan dirawat dengan sepenuh hati untuk kesehatan keluarga Indonesia.
-        </p>
-        <img src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/z44xn4tf_expires_30_days.png" className="w-24" alt="divider" />
+        {/* Background slideshow (auto) - non intrusive, sits behind content */}
+        <div aria-hidden className="absolute inset-0">
+          <div className="hero-slide" style={{ backgroundImage: `url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/n41a7cjj_expires_30_days.png')` }} />
+          <div className="hero-slide" style={{ backgroundImage: `url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/9vp0s1m2_expires_30_days.png')` }} />
+          <div className="hero-slide" style={{ backgroundImage: `url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/iv45zq40_expires_30_days.png')` }} />
+        </div>
+
+        <div className="relative z-10">
+          <h1 className="text-[#27491F] text-4xl md:text-6xl font-bold max-w-4xl mb-6 leading-tight">
+            Toga Kesehatan di Tengah Purwodadi
+          </h1>
+          <p className="text-black text-xl md:text-2xl max-w-3xl mb-10">
+            Tumbuh dan dirawat dengan sepenuh hati untuk kesehatan keluarga Indonesia.
+          </p>
+        </div>
       </section>
 
       {/* Penjelasan TOGA */}

@@ -32,8 +32,8 @@ export default function HomePage() {
               Tujuannya adalah mempromosikan gaya hidup sehat dengan bahan alami serta memperindah lingkungan rumah.
             </p>
           </div>
-          <div className="bg-[#B78960] p-4 rounded-3xl shadow-xl">
-            <img src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/srircqvn_expires_30_days.png" className="w-full rounded-2xl" alt="Ilustrasi" />
+          <div className="bg-[#2c5f21] p-4 rounded-3xl shadow-xl">
+            <img src="toga.png" className="w-full rounded-2xl" alt="Ilustrasi" />
           </div>
         </div>
       </section>

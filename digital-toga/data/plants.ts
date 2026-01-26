@@ -41,7 +41,7 @@ export const plants: Plant[] = [
       'Menurunkan asam urat',
       'Melancarkan buang air kecil'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/w7yvab9t_expires_30_days.png',
+    img: '/kumis-kucing.png',
   },
   {
     slug: 'tempuyung',
@@ -64,7 +64,7 @@ export const plants: Plant[] = [
       'Melancarkan buang air kecil',
       'Membantu mengatasi batu ginjal'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/92a9p8wg_expires_30_days.png',
+    img: '/tempuyung.png',
   },
   {
     slug: 'daun-salam',
@@ -87,7 +87,7 @@ export const plants: Plant[] = [
       'Menurunkan kolesterol',
       'Mengontrol kadar gula darah'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/mbh4n54h_expires_30_days.png',
+    img: '/daun-salam.png',
   },
   {
     slug: 'bunga-telang',
@@ -110,7 +110,7 @@ export const plants: Plant[] = [
       'Mengatasi depresi',
       'Mengontrol kadar gula darah'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/iv45zq40_expires_30_days.png',
+    img: '/telang.png',
   },
   {
     slug: 'lidah-buaya',
@@ -133,7 +133,7 @@ export const plants: Plant[] = [
       'Meredakan iritasi kulit',
       'Memiliki efek antioksidan'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/lla81p1t_expires_30_days.png',
+    img: '/lidah-buaya.png',
   },
   {
     slug: 'lavender',
@@ -156,7 +156,7 @@ export const plants: Plant[] = [
       'Memberikan efek menenangkan',
       'Mengurangi efek peradangan'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/wzddeo0i_expires_30_days.png',
+    img: '/lavender.png',
   },
   {
     slug: 'jahe',
@@ -179,6 +179,52 @@ export const plants: Plant[] = [
       'Menghangatkan tubuh',
       'Melancarkan pencernaan'
     ],
-    img: 'https://storage.googleapis.com/tagjs-prod.appspot.com/v1/l2jfPHCa6W/qmj38c3i_expires_30_days.png',
+    img: '/jahe.png',
+  },
+  {
+    slug: 'kencur',
+    name: 'Kencur',
+    descShort: 'Tanaman herbal dengan daun lebar yang tumbuh mendatar dan memiliki aroma khas dari rimpangnya.',
+    descFull: 'Kencur merupakan tanaman herbal yang memiliki daun lebar, pendek, dan tumbuh mendatar dekat permukaan tanah. Tanaman ini memiliki batang semu yang sangat pendek, sehingga daun seolah muncul langsung dari rimpangnya. Kencur menghasilkan bunga kecil berwarna putih keunguan yang tumbuh dari pangkal tanaman.',
+    cultivation: 'Kencur ditanam pada tanah yang gembur, subur, dan kaya bahan organik dengan sistem perairan yang baik. Budidaya dilakukan menggunakan rimpang sehat sebagai bibit yang ditanam dangkal. Penyiraman dilakukan secara rutin untuk menjaga kelembapan, namun hindari genangan air agar rimpang tidak membusuk. Penyiangan gulma dan penggemburan tanah secara berkala diperlukan untuk mendukung pertumbuhan.',
+    taxonomy: {
+      kingdom: 'Plantae',
+      divisi: 'Spermatophyta',
+      kelas: 'Monocotyledonae',
+      ordo: 'Zingiberales',
+      famili: 'Zingiberaceae',
+      genus: 'Kaempferia',
+      spesies: 'Kaempferia galanga L.'
+    },
+    partsUsed: 'Rimpang',
+    benefits: [
+      'Mengurangi peradangan dan nyeri',
+      'Membantu melancarkan pencernaan',
+      'Meredakan batuk dan sakit tenggorokan'
+    ],
+    img: '/kencur.jpg',
+  },
+  {
+    slug: 'kunyit',
+    name: 'Kunyit',
+    descShort: 'Tanaman herbal dengan rimpang kuning cerah yang populer sebagai bumbu dapur dan obat tradisional.',
+    descFull: 'Kunyit merupakan tanaman herbal yang memiliki daun lebar dan panjang yang tumbuh tegak dari pangkal tanaman. Tanaman ini menghasilkan bunga yang muncul dari bagian tengah dengan warna putih kekuningan. Rimpangnya berwarna kuning cerah dan memiliki aroma serta rasa yang khas.',
+    cultivation: 'Kunyit memerlukan tanah yang gembur, subur, dan tidak tergenang air. Penanaman dilakukan menggunakan rimpang yang sudah tua dan sehat dengan kedalaman secukupnya. Selama masa pertumbuhan, kunyit perlu disiram teratur terutama saat musim kemarau. Lakukan penyiangan gulma dan penggemburan tanah agar unsur hara terserap baik. Kunyit dapat dipanen setelah berumur 8 hingga 10 bulan.',
+    taxonomy: {
+      kingdom: 'Plantae',
+      divisi: 'Spermatophyta',
+      kelas: 'Monocotyledonae',
+      ordo: 'Zingiberales',
+      famili: 'Zingiberaceae',
+      genus: 'Curcuma',
+      spesies: 'Curcuma longa L.'
+    },
+    partsUsed: 'Rimpang',
+    benefits: [
+      'Menurunkan kadar kolesterol',
+      'Membantu melancarkan pencernaan',
+      'Meredakan nyeri dan peradangan'
+    ],
+    img: '/kunyit.jpg',
   }
 ];
